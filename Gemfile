@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
-gem "rails", "~> 7.0.2.4"
+gem "rails", "~> 7.0.8.1"
 
 gem "cssbundling-rails", "~> 1.0"
 gem "hotwire-rails", "~> 0.1"
@@ -13,7 +13,7 @@ gem "puma", "~> 5.6"
 gem "sprockets-rails", "~> 3.4"
 gem "stimulus-rails", "~> 0.7"
 gem "turbo-rails", "~> 1.0"
-gem "view_component", "~> 2.53"
+gem "view_component", "~> 2.83"
 
 group :development, :test do
   gem "faker"
@@ -57,9 +57,9 @@ gem "postmark-rails", "~> 0.22.0"
 gem "pundit", "~> 2.1"
 gem "rails-i18n", "~> 7.0"
 gem "redcarpet", "~> 3.5"
-gem "rexml", "~> 3.2", ">= 3.2.5"
+gem "rexml", "~> 3.2"
 gem "scout_apm", "~> 5.1"
-gem "sidekiq", "~> 6.4"
+gem "sidekiq", "~> 6.5"
 gem "sitemap_generator", "~> 6.1"
 gem "stripe", ">= 2.8", "< 6.0"
 gem "timezone_finder", "~> 1.5.7"
